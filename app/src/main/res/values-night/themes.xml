@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.ClimaRicardo" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/bluePrimary</item>
+        <item name="colorSecondary">@color/blueLight</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/bluePrimary</item>
+    </style>
+</resources>

@@ -1,0 +1,240 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.seidemann.climaricardo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\ricar\Desktop\Faculdade\Moveis\ClimaRicardos\app\src\main\AndroidManifest.xml:3:5-66
+11-->C:\Users\ricar\Desktop\Faculdade\Moveis\ClimaRicardos\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\ricar\Desktop\Faculdade\Moveis\ClimaRicardos\app\src\main\AndroidManifest.xml:4:5-64
+12-->C:\Users\ricar\Desktop\Faculdade\Moveis\ClimaRicardos\app\src\main\AndroidManifest.xml:4:22-62
+13    <!-- Include required permissions for Google Maps API to run. -->
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\dacd03bb3a8bb313ccb9481a3b53385e\transformed\play-services-maps-19.0.0\AndroidManifest.xml:23:5-79
+14-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\dacd03bb3a8bb313ccb9481a3b53385e\transformed\play-services-maps-19.0.0\AndroidManifest.xml:23:22-76
+15
+16    <uses-feature
+16-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\dacd03bb3a8bb313ccb9481a3b53385e\transformed\play-services-maps-19.0.0\AndroidManifest.xml:26:5-28:35
+17        android:glEsVersion="0x00020000"
+17-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\dacd03bb3a8bb313ccb9481a3b53385e\transformed\play-services-maps-19.0.0\AndroidManifest.xml:27:9-41
+18        android:required="true" />
+18-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\dacd03bb3a8bb313ccb9481a3b53385e\transformed\play-services-maps-19.0.0\AndroidManifest.xml:28:9-32
+19
+20    <queries>
+20-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\dacd03bb3a8bb313ccb9481a3b53385e\transformed\play-services-maps-19.0.0\AndroidManifest.xml:30:5-34:15
+21
+22        <!-- Needs to be explicitly declared on Android R+ -->
+23        <package android:name="com.google.android.apps.maps" />
+23-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\dacd03bb3a8bb313ccb9481a3b53385e\transformed\play-services-maps-19.0.0\AndroidManifest.xml:33:9-64
+23-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\dacd03bb3a8bb313ccb9481a3b53385e\transformed\play-services-maps-19.0.0\AndroidManifest.xml:33:18-61
+24    </queries> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+25    <uses-feature
+25-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\b48d4c5740fbc2c0166b20c2b9ef5dcf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+26        android:name="android.hardware.camera"
+26-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\b48d4c5740fbc2c0166b20c2b9ef5dcf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
+27        android:required="false" />
+27-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\b48d4c5740fbc2c0166b20c2b9ef5dcf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
+28    <uses-feature
+28-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\b48d4c5740fbc2c0166b20c2b9ef5dcf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+29        android:name="android.hardware.camera.front"
+29-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\b48d4c5740fbc2c0166b20c2b9ef5dcf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+30        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+30-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\b48d4c5740fbc2c0166b20c2b9ef5dcf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+31    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+32    <uses-feature
+32-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\b48d4c5740fbc2c0166b20c2b9ef5dcf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+33        android:name="android.hardware.camera.autofocus"
+33-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\b48d4c5740fbc2c0166b20c2b9ef5dcf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+34        android:required="false" />
+34-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\b48d4c5740fbc2c0166b20c2b9ef5dcf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+35    <uses-feature
+35-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\b48d4c5740fbc2c0166b20c2b9ef5dcf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+36        android:name="android.hardware.camera.flash"
+36-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\b48d4c5740fbc2c0166b20c2b9ef5dcf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+37        android:required="false" />
+37-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\b48d4c5740fbc2c0166b20c2b9ef5dcf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+38    <uses-feature
+38-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\b48d4c5740fbc2c0166b20c2b9ef5dcf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+39        android:name="android.hardware.screen.landscape"
+39-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\b48d4c5740fbc2c0166b20c2b9ef5dcf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+40        android:required="false" />
+40-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\b48d4c5740fbc2c0166b20c2b9ef5dcf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+41    <uses-feature
+41-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\b48d4c5740fbc2c0166b20c2b9ef5dcf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+42        android:name="android.hardware.wifi"
+42-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\b48d4c5740fbc2c0166b20c2b9ef5dcf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+43        android:required="false" />
+43-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\b48d4c5740fbc2c0166b20c2b9ef5dcf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+44
+45    <permission
+45-->[androidx.core:core:1.13.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\fac3093fc400b37ce40f3649451c6993\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+46        android:name="com.seidemann.climaricardo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+46-->[androidx.core:core:1.13.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\fac3093fc400b37ce40f3649451c6993\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+47        android:protectionLevel="signature" />
+47-->[androidx.core:core:1.13.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\fac3093fc400b37ce40f3649451c6993\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+48
+49    <uses-permission android:name="com.seidemann.climaricardo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+49-->[androidx.core:core:1.13.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\fac3093fc400b37ce40f3649451c6993\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+49-->[androidx.core:core:1.13.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\fac3093fc400b37ce40f3649451c6993\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+50
+51    <application
+51-->C:\Users\ricar\Desktop\Faculdade\Moveis\ClimaRicardos\app\src\main\AndroidManifest.xml:5:5-25:19
+52        android:allowBackup="true"
+52-->C:\Users\ricar\Desktop\Faculdade\Moveis\ClimaRicardos\app\src\main\AndroidManifest.xml:6:9-35
+53        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+53-->[androidx.core:core:1.13.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\fac3093fc400b37ce40f3649451c6993\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+54        android:debuggable="true"
+55        android:extractNativeLibs="false"
+56        android:icon="@mipmap/ic_launcher"
+56-->C:\Users\ricar\Desktop\Faculdade\Moveis\ClimaRicardos\app\src\main\AndroidManifest.xml:8:9-43
+57        android:label="@string/app_name"
+57-->C:\Users\ricar\Desktop\Faculdade\Moveis\ClimaRicardos\app\src\main\AndroidManifest.xml:10:9-41
+58        android:roundIcon="@mipmap/ic_launcher_round"
+58-->C:\Users\ricar\Desktop\Faculdade\Moveis\ClimaRicardos\app\src\main\AndroidManifest.xml:9:9-54
+59        android:supportsRtl="true"
+59-->C:\Users\ricar\Desktop\Faculdade\Moveis\ClimaRicardos\app\src\main\AndroidManifest.xml:7:9-35
+60        android:testOnly="true"
+61        android:theme="@style/Theme.ClimaRicardo" >
+61-->C:\Users\ricar\Desktop\Faculdade\Moveis\ClimaRicardos\app\src\main\AndroidManifest.xml:11:9-50
+62        <meta-data
+62-->C:\Users\ricar\Desktop\Faculdade\Moveis\ClimaRicardos\app\src\main\AndroidManifest.xml:12:9-14:55
+63            android:name="com.google.android.geo.API_KEY"
+63-->C:\Users\ricar\Desktop\Faculdade\Moveis\ClimaRicardos\app\src\main\AndroidManifest.xml:13:13-58
+64            android:value="@string/google_maps_key" />
+64-->C:\Users\ricar\Desktop\Faculdade\Moveis\ClimaRicardos\app\src\main\AndroidManifest.xml:14:13-52
+65
+66        <activity android:name="com.seidemann.climaricardo.AboutActivity" />
+66-->C:\Users\ricar\Desktop\Faculdade\Moveis\ClimaRicardos\app\src\main\AndroidManifest.xml:15:9-50
+66-->C:\Users\ricar\Desktop\Faculdade\Moveis\ClimaRicardos\app\src\main\AndroidManifest.xml:15:19-48
+67        <activity android:name="com.seidemann.climaricardo.HomeActivity" />
+67-->C:\Users\ricar\Desktop\Faculdade\Moveis\ClimaRicardos\app\src\main\AndroidManifest.xml:16:9-49
+67-->C:\Users\ricar\Desktop\Faculdade\Moveis\ClimaRicardos\app\src\main\AndroidManifest.xml:16:19-47
+68        <activity
+68-->C:\Users\ricar\Desktop\Faculdade\Moveis\ClimaRicardos\app\src\main\AndroidManifest.xml:17:9-24:20
+69            android:name="com.seidemann.climaricardo.IntroActivity"
+69-->C:\Users\ricar\Desktop\Faculdade\Moveis\ClimaRicardos\app\src\main\AndroidManifest.xml:18:13-42
+70            android:exported="true" >
+70-->C:\Users\ricar\Desktop\Faculdade\Moveis\ClimaRicardos\app\src\main\AndroidManifest.xml:19:13-36
+71            <intent-filter>
+71-->C:\Users\ricar\Desktop\Faculdade\Moveis\ClimaRicardos\app\src\main\AndroidManifest.xml:20:13-23:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->C:\Users\ricar\Desktop\Faculdade\Moveis\ClimaRicardos\app\src\main\AndroidManifest.xml:21:17-69
+72-->C:\Users\ricar\Desktop\Faculdade\Moveis\ClimaRicardos\app\src\main\AndroidManifest.xml:21:25-66
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->C:\Users\ricar\Desktop\Faculdade\Moveis\ClimaRicardos\app\src\main\AndroidManifest.xml:22:17-77
+74-->C:\Users\ricar\Desktop\Faculdade\Moveis\ClimaRicardos\app\src\main\AndroidManifest.xml:22:27-74
+75            </intent-filter>
+76        </activity>
+77        <!-- Needs to be explicitly declared on P+ -->
+78        <uses-library
+78-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\dacd03bb3a8bb313ccb9481a3b53385e\transformed\play-services-maps-19.0.0\AndroidManifest.xml:39:9-41:40
+79            android:name="org.apache.http.legacy"
+79-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\dacd03bb3a8bb313ccb9481a3b53385e\transformed\play-services-maps-19.0.0\AndroidManifest.xml:40:13-50
+80            android:required="false" />
+80-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\dacd03bb3a8bb313ccb9481a3b53385e\transformed\play-services-maps-19.0.0\AndroidManifest.xml:41:13-37
+81
+82        <activity
+82-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\b48d4c5740fbc2c0166b20c2b9ef5dcf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+83            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+83-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\b48d4c5740fbc2c0166b20c2b9ef5dcf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+84            android:clearTaskOnLaunch="true"
+84-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\b48d4c5740fbc2c0166b20c2b9ef5dcf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+85            android:screenOrientation="sensorLandscape"
+85-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\b48d4c5740fbc2c0166b20c2b9ef5dcf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+86            android:stateNotNeeded="true"
+86-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\b48d4c5740fbc2c0166b20c2b9ef5dcf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+87            android:theme="@style/zxing_CaptureTheme"
+87-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\b48d4c5740fbc2c0166b20c2b9ef5dcf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+88            android:windowSoftInputMode="stateAlwaysHidden" />
+88-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\b48d4c5740fbc2c0166b20c2b9ef5dcf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+89        <activity
+89-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\727f370c5655987352e586cc07331ced\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+90            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+90-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\727f370c5655987352e586cc07331ced\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+91            android:exported="false"
+91-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\727f370c5655987352e586cc07331ced\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+92-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\727f370c5655987352e586cc07331ced\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+93
+94        <meta-data
+94-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\307c71dfd2b6c36e8f37fbefc74c33ff\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+95            android:name="com.google.android.gms.version"
+95-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\307c71dfd2b6c36e8f37fbefc74c33ff\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+96            android:value="@integer/google_play_services_version" />
+96-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\307c71dfd2b6c36e8f37fbefc74c33ff\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+97
+98        <provider
+98-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\d6186f023e83ae1b4fc2a67c06e9d1af\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+99            android:name="androidx.startup.InitializationProvider"
+99-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\d6186f023e83ae1b4fc2a67c06e9d1af\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+100            android:authorities="com.seidemann.climaricardo.androidx-startup"
+100-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\d6186f023e83ae1b4fc2a67c06e9d1af\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+101            android:exported="false" >
+101-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\d6186f023e83ae1b4fc2a67c06e9d1af\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+102            <meta-data
+102-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\d6186f023e83ae1b4fc2a67c06e9d1af\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+103                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+103-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\d6186f023e83ae1b4fc2a67c06e9d1af\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+104                android:value="androidx.startup" />
+104-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\d6186f023e83ae1b4fc2a67c06e9d1af\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+105            <meta-data
+105-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\ecccf903d6e7c8753357e1417b610b72\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+106                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+106-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\ecccf903d6e7c8753357e1417b610b72\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+107                android:value="androidx.startup" />
+107-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\ecccf903d6e7c8753357e1417b610b72\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+108            <meta-data
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\c1e0ca89e38fdebcba59be92766ed4d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+109                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+109-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\c1e0ca89e38fdebcba59be92766ed4d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+110                android:value="androidx.startup" />
+110-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\c1e0ca89e38fdebcba59be92766ed4d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+111        </provider>
+112
+113        <receiver
+113-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\c1e0ca89e38fdebcba59be92766ed4d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+114            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+114-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\c1e0ca89e38fdebcba59be92766ed4d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+115            android:directBootAware="false"
+115-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\c1e0ca89e38fdebcba59be92766ed4d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+116            android:enabled="true"
+116-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\c1e0ca89e38fdebcba59be92766ed4d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+117            android:exported="true"
+117-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\c1e0ca89e38fdebcba59be92766ed4d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+118            android:permission="android.permission.DUMP" >
+118-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\c1e0ca89e38fdebcba59be92766ed4d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+119            <intent-filter>
+119-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\c1e0ca89e38fdebcba59be92766ed4d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+120                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+120-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\c1e0ca89e38fdebcba59be92766ed4d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+120-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\c1e0ca89e38fdebcba59be92766ed4d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+121            </intent-filter>
+122            <intent-filter>
+122-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\c1e0ca89e38fdebcba59be92766ed4d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+123                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+123-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\c1e0ca89e38fdebcba59be92766ed4d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+123-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\c1e0ca89e38fdebcba59be92766ed4d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+124            </intent-filter>
+125            <intent-filter>
+125-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\c1e0ca89e38fdebcba59be92766ed4d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+126                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+126-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\c1e0ca89e38fdebcba59be92766ed4d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+126-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\c1e0ca89e38fdebcba59be92766ed4d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+127            </intent-filter>
+128            <intent-filter>
+128-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\c1e0ca89e38fdebcba59be92766ed4d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+129                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+129-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\c1e0ca89e38fdebcba59be92766ed4d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+129-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ricar\.gradle\caches\9.0-milestone-1\transforms\c1e0ca89e38fdebcba59be92766ed4d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+130            </intent-filter>
+131        </receiver>
+132    </application>
+133
+134</manifest>

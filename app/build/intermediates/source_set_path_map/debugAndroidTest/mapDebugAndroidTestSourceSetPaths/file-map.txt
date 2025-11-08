@@ -1,0 +1,4 @@
+com.seidemann.climaricardo.test.app-androidTest-0 C:\Users\ricar\Downloads\ClimaRicardo_FullProject_APO_FIX_CORRIGIDO\app\build\generated\res\resValues\androidTest\debug
+com.seidemann.climaricardo.test.app-mergeDebugAndroidTestResources-1 C:\Users\ricar\Downloads\ClimaRicardo_FullProject_APO_FIX_CORRIGIDO\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.seidemann.climaricardo.test.app-mergeDebugAndroidTestResources-2 C:\Users\ricar\Downloads\ClimaRicardo_FullProject_APO_FIX_CORRIGIDO\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.seidemann.climaricardo.test.app-debugAndroidTest-3 C:\Users\ricar\Downloads\ClimaRicardo_FullProject_APO_FIX_CORRIGIDO\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

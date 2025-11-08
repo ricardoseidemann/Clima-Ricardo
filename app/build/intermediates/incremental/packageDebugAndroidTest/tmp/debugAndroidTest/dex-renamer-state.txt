@@ -1,0 +1,4 @@
+#Thu Nov 06 02:36:05 BRT 2025
+base.0=C\:\\Users\\ricar\\Downloads\\ClimaRicardo_FullProject_APO_FIX_CORRIGIDO\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex

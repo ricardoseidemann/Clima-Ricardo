@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.seidemann.climaricardo.app-mergeDebugResources-34:/values-he/values-he.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ricar\\.gradle\\caches\\9.0-milestone-1\\transforms\\b48d4c5740fbc2c0166b20c2b9ef5dcf\\transformed\\zxing-android-embedded-4.3.0\\res\\values-he\\values-he.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,111,161,296",
+                        "endColumns": "55,49,134,89",
+                        "endOffsets": "106,156,291,381"
+                    }
+                }
+            ]
+        }
+    ]
+}

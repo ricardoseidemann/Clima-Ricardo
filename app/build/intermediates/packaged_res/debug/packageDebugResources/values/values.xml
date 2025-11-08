@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#000000</color>
+    <color name="blueLight">#D8E9FF</color>
+    <color name="bluePrimary">#4A90E2</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">ClimaRicardo</string>
+    <string name="google_maps_key">AIzaSyBgJD9AxeK0iOYJUCjCPRosVcJvYVJd9Cg</string>
+    <style name="Theme.ClimaRicardo" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/bluePrimary</item>
+        <item name="colorSecondary">@color/blueLight</item>
+        <item name="android:statusBarColor" ns1:targetApi="l">@color/bluePrimary</item>
+    </style>
+</resources>

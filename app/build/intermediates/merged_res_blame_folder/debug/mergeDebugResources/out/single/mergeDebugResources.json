@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "com.seidemann.climaricardo.app-debug-36:/drawable_ic_weather_rain.xml.flat",
+        "source": "com.seidemann.climaricardo.app-main-38:/drawable/ic_weather_rain.xml"
+    },
+    {
+        "merged": "com.seidemann.climaricardo.app-debug-36:/drawable_ic_weather_fog.xml.flat",
+        "source": "com.seidemann.climaricardo.app-main-38:/drawable/ic_weather_fog.xml"
+    },
+    {
+        "merged": "com.seidemann.climaricardo.app-debug-36:/mipmap_ic_launcher_round.png.flat",
+        "source": "com.seidemann.climaricardo.app-main-38:/mipmap/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.seidemann.climaricardo.app-debug-36:/drawable_avatar_ricardo.xml.flat",
+        "source": "com.seidemann.climaricardo.app-main-38:/drawable/avatar_ricardo.xml"
+    },
+    {
+        "merged": "com.seidemann.climaricardo.app-debug-36:/drawable_ic_weather_cloud.xml.flat",
+        "source": "com.seidemann.climaricardo.app-main-38:/drawable/ic_weather_cloud.xml"
+    },
+    {
+        "merged": "com.seidemann.climaricardo.app-debug-36:/layout_fragment_map.xml.flat",
+        "source": "com.seidemann.climaricardo.app-main-38:/layout/fragment_map.xml"
+    },
+    {
+        "merged": "com.seidemann.climaricardo.app-debug-36:/mipmap_ic_launcher.png.flat",
+        "source": "com.seidemann.climaricardo.app-main-38:/mipmap/ic_launcher.png"
+    },
+    {
+        "merged": "com.seidemann.climaricardo.app-debug-36:/menu_menu_main.xml.flat",
+        "source": "com.seidemann.climaricardo.app-main-38:/menu/menu_main.xml"
+    },
+    {
+        "merged": "com.seidemann.climaricardo.app-debug-36:/layout_fragment_forecast.xml.flat",
+        "source": "com.seidemann.climaricardo.app-main-38:/layout/fragment_forecast.xml"
+    },
+    {
+        "merged": "com.seidemann.climaricardo.app-debug-36:/layout_activity_intro.xml.flat",
+        "source": "com.seidemann.climaricardo.app-main-38:/layout/activity_intro.xml"
+    },
+    {
+        "merged": "com.seidemann.climaricardo.app-debug-36:/layout_activity_about.xml.flat",
+        "source": "com.seidemann.climaricardo.app-main-38:/layout/activity_about.xml"
+    },
+    {
+        "merged": "com.seidemann.climaricardo.app-debug-36:/drawable_ic_weather_sun.xml.flat",
+        "source": "com.seidemann.climaricardo.app-main-38:/drawable/ic_weather_sun.xml"
+    },
+    {
+        "merged": "com.seidemann.climaricardo.app-debug-36:/drawable_ricardo.png.flat",
+        "source": "com.seidemann.climaricardo.app-main-38:/drawable/ricardo.png"
+    },
+    {
+        "merged": "com.seidemann.climaricardo.app-debug-36:/drawable_ic_weather_drizzle.xml.flat",
+        "source": "com.seidemann.climaricardo.app-main-38:/drawable/ic_weather_drizzle.xml"
+    },
+    {
+        "merged": "com.seidemann.climaricardo.app-debug-36:/layout_activity_home.xml.flat",
+        "source": "com.seidemann.climaricardo.app-main-38:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.seidemann.climaricardo.app-debug-36:/drawable_ic_weather_thunder.xml.flat",
+        "source": "com.seidemann.climaricardo.app-main-38:/drawable/ic_weather_thunder.xml"
+    },
+    {
+        "merged": "com.seidemann.climaricardo.app-debug-36:/drawable_ic_weather_snow.xml.flat",
+        "source": "com.seidemann.climaricardo.app-main-38:/drawable/ic_weather_snow.xml"
+    },
+    {
+        "merged": "com.seidemann.climaricardo.app-debug-36:/layout_item_forecast.xml.flat",
+        "source": "com.seidemann.climaricardo.app-main-38:/layout/item_forecast.xml"
+    }
+]
